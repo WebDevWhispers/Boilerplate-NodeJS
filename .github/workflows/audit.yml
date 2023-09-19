@@ -9,10 +9,6 @@ jobs:
     steps:
       - name: ⬇ Git checkout
         uses: actions/checkout@v4
-      # - name: ⚙️ Setup Node
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: latest
       - name: 💾 Install modules
         run: npm ci
       - name: 🔍 Lint
