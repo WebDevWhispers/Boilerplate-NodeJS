@@ -4,6 +4,7 @@
   "description": "Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
   "type": "module",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "prepare": "husky install",
     "lint": "eslint 'src/**/*.js' --fix"
   },
@@ -21,6 +22,10 @@
     "url": "https://github.com/WebDevWhispers/Boilerplate-NodeJS/issues"
   },
   "homepage": "https://github.com/WebDevWhispers/Boilerplate-NodeJS#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
@@ -29,9 +34,7 @@
     "eslint-plugin-import": "^2.28.1",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
+    "nodemon": "^3.0.1",
     "prettier": "^3.0.3"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1"
   }
 }
