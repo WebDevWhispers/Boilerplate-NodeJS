@@ -1,6 +1,6 @@
 import './loadEnvironment.js';
 import express from 'express';
-import configViewEngine from './web/config/configViewEngine.js';
+import configViewEngine from './config/configViewEngine.js';
 
 // Initialize express
 const app = express();
