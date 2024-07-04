@@ -16,7 +16,7 @@ Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está e
 
 2. **Express ⚡**:
 
-   Express ya está listo para usarse. Puedes comenzar editando el archivo `index.js` en la raíz del proyecto para crear tu API.
+   Express ya está listo para usarse. Puedes comenzar editando el archivo `server.ts` en la raíz del proyecto para crear tu API.
 
 3. **JOI 📏:**
 
