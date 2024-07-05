@@ -1,11 +1,10 @@
 import './loadEnvironment.js';
 import express from 'express';
-import configViewEngine from './config/configViewEngine.js';
+import configViewEngine from './web/config/configViewEngine.js';
 
 // Initialize express
 const app = express();
 const port = process.env.PORT ?? '3000';
-
 // Configure view engine for EJS
 configViewEngine(app);
 
